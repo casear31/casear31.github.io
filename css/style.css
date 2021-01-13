@@ -1,0 +1,160 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #f5f7fa; 
+    padding: 40px;
+    font-size: 14px;
+
+}
+
+ul,ol {
+    padding-left: 18px;
+}     
+
+h3{
+    font-size: 22px;
+    padding-top: 55px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    max-width: 1280px;
+    background-color: #fff;
+    box-shadow: 5px 9px 20px 0px rgba(0,0,0,0.15);
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+/* aside */
+
+aside {
+    padding-top: 40px;
+    width: 370px;
+    background-color: #1e2939;
+}
+
+aside img {
+    width: 100%;
+}
+
+.aside-bar {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 370px;
+    color: #fff;
+}
+
+.contacts a {
+    color: #8f949c;
+    text-decoration: none;
+}           
+
+.contacts span {
+    color: #ffffff;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+#email a {
+    text-decoration: underline ;
+}
+
+.aside-bar li {
+    color: #ff6b08;
+}
+
+.aside-bar li span{
+    color: #fcfaf9;
+}
+
+.aside-bar h3 {
+    padding-bottom: 15px;
+}
+
+/*about me*/
+
+.about-me-container {
+    max-width: 100%;
+    margin: 107px 195px 107px 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-container h1 {
+    line-height: 89px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-me-container h5 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.about-me-container h4 {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.about-me-main p {
+    color: #595959;
+    max-width: 515px;
+}
+
+/* projects */
+
+.project li {
+    display: list-item;
+    font-weight: 700;
+}
+.project h3{
+    padding-bottom: 10px;
+}
+
+.project a{
+    text-decoration: none;
+    color: #595959;
+}
+
+
+
+
+/* experience */
+
+.duration {
+    color: #a8a8a8;
+    font-size: 12px;
+}
+
+.pipeline {
+    color: #000000;
+    font-size: 14px;
+}
+
+.place {
+    color: #ff6b08;
+    font-size: 16px;
+}
+
+.education p {
+    font-weight: 700;
+    color: #000000;
+}
+
+.education h3 {
+    padding-bottom: 20px;
+}
+
+.experience li {
+    color: #595959;
+}
